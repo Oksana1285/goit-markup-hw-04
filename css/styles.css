@@ -190,14 +190,6 @@ img {
 
 /* ------HERO ------*/
 .hero {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office\ 1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   background: #2e2f42;
   padding: 188px 0;
   margin-left: auto;
@@ -205,6 +197,14 @@ img {
   display: flex;
   max-width: 1440px;
   height: 600px;
+  background-image: linear-gradient(
+      to bottom rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-container {
