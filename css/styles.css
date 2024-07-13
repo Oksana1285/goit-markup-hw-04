@@ -530,6 +530,8 @@ img {
 }
 
 .footer-icon-link:hover,
-.footer-icon-link:focus {
+.footer-icon-link:focus,
+.footer-icon-icon:hover,
+.footer-icon-icon:focus {
   background-color: #31d0aa;
 }
